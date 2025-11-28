@@ -1,0 +1,8 @@
+[2025-11-28 15:10:47] API Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+[2025-11-28 15:18:23] ICD extraction complete: uploads\sample.pdf
+[2025-11-28 15:59:29] ICD extraction complete with coordinates: uploads\sample.pdf
+[2025-11-28 16:30:25] PDF processing complete: uploads\sample.pdf
+[2025-11-28 16:36:40] ICD extraction complete: uploads\sample.pdf
+[2025-11-28 16:47:55] ICD extraction complete: uploads\sample.pdf
+[2025-11-28 16:54:54] PDF processed successfully: uploads\sample.pdf
+[2025-11-28 17:04:04] PDF processed successfully: uploads\sample.pdf

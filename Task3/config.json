@@ -1,0 +1,4 @@
+{
+    "upload_directory": "uploads",
+    "icd_pattern": "(?:ICD[- ]?(?:9|10)-CM:)\\s*([A-TV-Z][0-9][0-9](?:\\.[0-9A-Z]+)?)"
+}
