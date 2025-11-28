@@ -33,8 +33,7 @@ def extract_page_data(pdf_path: str):
                 text = page.extract_text(layout=True) or ""
                 codes = re.findall(ICD_PATTERN, text)
 
-                # Extract words with coordinates
-                words = page.extract_words()  # each word has x0, x1, top, bottom, text
+                words = page.extract_words()  
                 word_coords = [
                     {
                         "text": w.get("text", ""),
