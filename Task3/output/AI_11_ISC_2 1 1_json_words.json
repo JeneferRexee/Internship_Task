@@ -2,6 +2,39 @@
     {
         "page_number": 1,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [
+            "E78.5",
+            "272.4",
+            "E11.29",
+            "R80.9",
+            "250.40",
+            "791.0",
+            "Z86.19",
+            "V12.09",
+            "E11.9",
+            "250.00",
+            "Z86.0100",
+            "V12.72",
+            "D17.20",
+            "214.1",
+            "L98.8",
+            "709.8",
+            "E13.21",
+            "249.40",
+            "583.81",
+            "B00.50",
+            "054.40",
+            "K57.90",
+            "562.10",
+            "E78.5",
+            "272.4",
+            "I10",
+            "401.9",
+            "K51.30",
+            "556.2",
+            "H93.13",
+            "388.30"
+        ],
         "words": [
             {
                 "text": "OLSC",
@@ -2059,6 +2092,7 @@
     {
         "page_number": 2,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -5866,6 +5900,7 @@
     {
         "page_number": 3,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -8322,6 +8357,7 @@
     {
         "page_number": 4,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -9987,6 +10023,7 @@
     {
         "page_number": 5,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -11834,6 +11871,7 @@
     {
         "page_number": 6,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -13401,6 +13439,7 @@
     {
         "page_number": 7,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -15507,6 +15546,7 @@
     {
         "page_number": 8,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -18075,6 +18115,7 @@
     {
         "page_number": 9,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -21154,6 +21195,7 @@
     {
         "page_number": 10,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -23295,6 +23337,7 @@
     {
         "page_number": 11,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",
@@ -26381,6 +26424,7 @@
     {
         "page_number": 12,
         "text_sample": "OLSC PRV PRIMARY CARE\n1541 Kings Hwy\nSHREVEPORT LA 71103-4228\nMelvin, William F\nMRN: 14458325, DOB: 9/24/1948, Legal Sex: M\nAcct #: 28009157410\nEnc. D",
+        "extracted_icd_codes": [],
         "words": [
             {
                 "text": "OLSC",

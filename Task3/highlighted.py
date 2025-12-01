@@ -10,9 +10,6 @@ Original file is located at
 # Installing Library
 !pip install pymupdf
 
-# Install PyMuPDF
-!pip install PyMuPDF
-
 # ------------------ Import Libraries ------------------
 import fitz
 import os, json, re
@@ -51,20 +48,28 @@ def extract_and_highlight(pdf_path, config):
     for page_num, page in enumerate(doc):
         text = page.get_text("text")
         words_data = []
+        extracted_icd_codes = []   # <---- NEW
 
         # ---- ICD Highlight (combined 9 & 10) ----
         for match in re.finditer(config["icd_pattern"], text, re.IGNORECASE):
+
             codes_str = match.group(1)
             codes = [c.strip() for c in codes_str.split(",")]
+
+            # store ICD codes separately
+            extracted_icd_codes.extend(codes)   # <---- NEW
+
             for code in codes:
                 # Search for the code itself, without ICD-xx label
                 for inst in page.search_for(code):
                     annot = page.add_highlight_annot(inst)
-                    # Color code: red for ICD-10, blue for ICD-9 (based on first char)
+
+                    # Color code: red for ICD-10, blue for ICD-9
                     if match.group(0).upper().startswith("ICD-10"):
                         annot.set_colors(stroke=(1, 0.8, 0.8))  # light red
                     else:
                         annot.set_colors(stroke=(0.6, 0.8, 1))  # light blue
+
                     annot.update()
 
         # ---- Extract words + coordinates ----
@@ -77,16 +82,18 @@ def extract_and_highlight(pdf_path, config):
                 "y1": round(w[3], 2)
             })
 
+        # ---- JSON per page ----
         pdf_data.append({
             "page_number": page_num + 1,
             "text_sample": text[:150],
+            "extracted_icd_codes": extracted_icd_codes,   # <---- NEW
             "words": words_data
         })
 
     # ---- Save PDF + JSON ----
     base_name = pdf_path.rsplit(".", 1)[0]
-    highlighted_pdf = f"{base_name}_highlighted.pdf"
-    json_file = f"{base_name}_words.json"
+    highlighted_pdf = f"{base_name} 1_highlighted.pdf"
+    json_file = f"{base_name} 1_json_words.json"
     doc.save(highlighted_pdf)
     doc.close()
 
