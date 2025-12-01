@@ -10,18 +10,21 @@ Original file is located at
 # Installing Library
 !pip install pymupdf
 
-# ------------------ Importing Libraries ------------------
+# Install PyMuPDF
+!pip install PyMuPDF
+
+# ------------------ Import Libraries ------------------
 import fitz
 import os, json, re
 from datetime import datetime
 from google.colab import files
-from IPython.display import HTML
+from IPython.display import HTML, display
 
 # ------------------ Config ------------------
 CONFIG_JSON = {
     "upload_directory": "uploads",
-    "icd_pattern_10": r"ICD-10-CM:?\s*\[?([A-Z]\d{1,2}(?:\.\d+)?(?:,\s*[\r\n]*[A-Z]\d{1,2}(?:\.\d+)?)*)\]?",
-    "icd_pattern_9": r"ICD-9-CM:?\s*([A-Z\d]?\d{1,2}(?:\.\d+)?(?:,\s*[\s]*[A-Z\d]?\d{1,2}(?:\.\d+)?)*)"
+    # Combined ICD-10 and ICD-9 pattern, captures only the codes
+    "icd_pattern": r"(?:ICD-(?:10|9)-CM):?\s*\[?([A-Z\d]\d{1,2}(?:\.\d+)?(?:,\s*[\s]*[A-Z\d]\d{1,2}(?:\.\d+)?)*)\]?"
 }
 
 UPLOAD_DIR = CONFIG_JSON["upload_directory"]
@@ -49,28 +52,19 @@ def extract_and_highlight(pdf_path, config):
         text = page.get_text("text")
         words_data = []
 
-        # ---- ICD-10 Highlight ----
-        for match in re.finditer(config["icd_pattern_10"], text, re.IGNORECASE):
-            label = "ICD-10-CM"
+        # ---- ICD Highlight (combined 9 & 10) ----
+        for match in re.finditer(config["icd_pattern"], text, re.IGNORECASE):
             codes_str = match.group(1)
             codes = [c.strip() for c in codes_str.split(",")]
             for code in codes:
-                full_text = f"{label}: {code}"
-                for inst in page.search_for(full_text):
+                # Search for the code itself, without ICD-xx label
+                for inst in page.search_for(code):
                     annot = page.add_highlight_annot(inst)
-                    annot.set_colors(stroke=(1, 0.8, 0.8))  # light red
-                    annot.update()
-
-        # ---- ICD-9 Highlight ----
-        for match in re.finditer(config["icd_pattern_9"], text, re.IGNORECASE):
-            label = "ICD-9-CM"
-            codes_str = match.group(1)
-            codes = [c.strip() for c in codes_str.split(",")]
-            for code in codes:
-                full_text = f"{label}: {code}"
-                for inst in page.search_for(full_text):
-                    annot = page.add_highlight_annot(inst)
-                    annot.set_colors(stroke=(0.6, 0.8, 1))  # light blue
+                    # Color code: red for ICD-10, blue for ICD-9 (based on first char)
+                    if match.group(0).upper().startswith("ICD-10"):
+                        annot.set_colors(stroke=(1, 0.8, 0.8))  # light red
+                    else:
+                        annot.set_colors(stroke=(0.6, 0.8, 1))  # light blue
                     annot.update()
 
         # ---- Extract words + coordinates ----
@@ -107,19 +101,18 @@ def extract_and_highlight(pdf_path, config):
 # ------------------ Run extraction & highlight ------------------
 highlighted_pdf, json_file = extract_and_highlight(pdf_path, CONFIG_JSON)
 
-# ------------------ Automatic download ------------------
-files.download(highlighted_pdf)
-files.download(json_file)
-print("✅ Highlighted PDF and JSON ready for download!")
-
-# ------------------ Manual download button ------------------
-def create_download_button(file_path, button_text="Download Highlighted PDF"):
+# ------------------ Manual download buttons ------------------
+def create_download_button(file_path, button_text="Download File"):
     import base64
     with open(file_path, "rb") as f:
         data = f.read()
     b64 = base64.b64encode(data).decode()
-    href = f'<a download="{os.path.basename(file_path)}" href="data:application/pdf;base64,{b64}" target="_blank"><button>{button_text}</button></a>'
-    return HTML(href)
+    href = f'<a download="{os.path.basename(file_path)}" href="data:application/octet-stream;base64,{b64}" target="_blank"><button>{button_text}</button></a>'
+    display(HTML(href))
 
-create_download_button(highlighted_pdf)
+# Display download buttons
+create_download_button(highlighted_pdf, "Download Highlighted PDF")
+create_download_button(json_file, "Download JSON Words Data")
+
+print("✅ Highlighted PDF and JSON ready for download!")
 
