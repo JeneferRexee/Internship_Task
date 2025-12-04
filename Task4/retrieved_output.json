@@ -1,0 +1,25 @@
+{
+    "query": "What is the medication reports",
+    "retrieved_chunks": [
+        {
+            "text": "The patient reports compliance with his medications",
+            "page": 3
+        },
+        {
+            "text": "No current facility-administered medications for this visit",
+            "page": 5
+        },
+        {
+            "text": "Date 10/9/2024\n10/09/2024 - Office Visit in Shreveport-Provenance Primary Care (continued)\nPatient as-of Visit (continued)\nCOVID-19, vector-nr, rS-Ad26, PF (Janssen) 03/20/2021, 12/24/2021\nInfluenza (FLUAD) - Quadrivalent - Adjuvanted - PF *Preferred* 10/24/2022, 11/16/2023\n(65+)\nInfluenza - Trivalent - Afluria, Fluzone MDV 09/13/2018\nPneumococcal Conjugate - 20 Valent 11/29/2022\nTdap 01/01/2016\nOutpatient Medications at Start of Encounter as of 10/9/2024\nDisp Refills Start End\naspirin 81 MG Chew (Taking) \u2014 \u2014 \u2014\nSig - Route: Take 2 tablets by mouth once daily",
+            "page": 2
+        },
+        {
+            "text": "Class: Historical Med\nRoute: Oral\ncetirizine (ZYRTEC) 10 MG tablet (Taking) 90 tablet 1 4/8/2024 \u2014\nSig: Take 1 tablet (10 mg total) by mouth once daily",
+            "page": 2
+        },
+        {
+            "text": "Date 10/9/2024\n10/09/2024 - Office Visit in Shreveport-Provenance Primary Care (continued)\nMedications the Patient Reported Taking (continued)\nDisp Refills Start End\nmesalamine (CANASA) 1000 MG Supp (Taking) 90 suppository 1 4/8/2024 \u2014\nSig: Place 1 suppository (1,000 mg total) rectally nightly",
+            "page": 3
+        }
+    ]
+}

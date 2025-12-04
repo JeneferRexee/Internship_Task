@@ -1,0 +1,388 @@
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using: nomic-embed-text
+PIPELINE FAILED: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting medical-aware text chunking...
+Created 46 medical-aware chunks.
+Generating embeddings using: nomic-embed-text
+Generated 46 embeddings.
+Building FAISS index...
+FAISS index built with 46 items.
+Running query with query expansion...
+Retrieved 5 re-ranked chunks.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting tables for vitals...
+Tables containing vitals found: 0
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting medical-aware text chunking...
+Created 46 medical-aware chunks.
+Generating embeddings using: nomic-embed-text
+Generated 46 embeddings.
+Building FAISS index...
+FAISS index built with 46 items.
+Running query with query expansion...
+Retrieved 5 re-ranked chunks.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting tables for vitals...
+Tables containing vitals found: 0
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting medical-aware text chunking...
+Created 46 medical-aware chunks.
+Generating embeddings using: nomic-embed-text
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 49 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 49 embeddings.
+Building FAISS index...
+FAISS index built with 49 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 1 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 1 embeddings.
+Building FAISS index...
+FAISS index built with 1 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 16 chunks.
+Filtered 1 chunk(s) containing Vitals.
+Generating embeddings using: nomic-embed-text
+Generated 1 embeddings.
+Building FAISS index...
+FAISS index built with 1 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 49 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 49 embeddings.
+Building FAISS index...
+FAISS index built with 49 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 unique chunks for query.
+Filtered 0 unique vitals chunk(s).
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 1 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 1 embeddings.
+Building FAISS index...
+FAISS index built with 1 items.
+Embedding query: Get the most recent vital signs
+Retrieved 1 unique chunks for query.
+Filtered 1 unique vitals chunk(s).
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted text from page 5.
+Starting text chunking...
+Created 49 chunks.
+Generating embeddings using: nomic-embed-text
+Generated 49 embeddings.
+Building FAISS index...
+FAISS index built with 49 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 unique chunks for query.
+Filtered 0 unique vitals chunk(s).
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Get the most recent vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: Get the most recent vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: What is the vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: What is the vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: What is the vital signs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 466 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 466 embeddings.
+Building FAISS index...
+FAISS index built with 466 items.
+Embedding query: What is the vital signs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Medications of the patient
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: Medications of the patient
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Medications
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: Medications
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: list of prescribed drugs
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: list of prescribed drugs
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: Medications of the patient
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: Medications of the patient
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: What is the patients medication reports
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: What is the patients medication reports
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
+--- RAG Pipeline Started ---
+PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Query: What is the medication reports
+PDF path validated: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracting text from PDF: C:\Users\Jenefer.RexeeGeorge\Documents\Internship_Task\Task4\uploads\AI_11_ISC_2 1.pdf
+Extracted 12 pages with text.
+Starting text chunking...
+Created 313 chunks.
+Generating embeddings using MiniLM ('all-MiniLM-L6-v2')
+Generated 313 embeddings.
+Building FAISS index...
+FAISS index built with 313 items.
+Embedding query: What is the medication reports
+Retrieved 5 chunks for query.
+Saving results to JSON file.
+Results saved to: retrieved_output.json
+Pipeline completed successfully.
+
